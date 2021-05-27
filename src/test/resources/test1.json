@@ -1,0 +1,16 @@
+{
+  "steps":[
+    {
+      "processor":"RemoveField",
+      "configuration":{
+        "fieldName":"age"
+      }
+    },
+    {
+      "processor":"CountNumOfFields",
+      "configuration":{
+        "targetFieldName":"numOfFields"
+      }
+    }
+  ]
+}
